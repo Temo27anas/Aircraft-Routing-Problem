@@ -1,0 +1,47 @@
+# Numeric data provided
+fleet = 6
+bt = 10  # hours/day
+seats = 70
+lto = 0.33  # min
+speed = 510  # Km/h
+load_factor = 0.8
+cask = 1.2  # Mad
+Yield = 1.6  # Mad/RPK
+
+Result - Optimal solution found
+
+Objective value:                151567.70421569
+Enumerated nodes:               62856
+Total iterations:               1579501
+Time (CPU seconds):             113.04
+Time (Wallclock seconds):       113.04
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       113.05   (Wallclock seconds):       113.05
+
+Status: Optimal
+x_('AGA',_'ERH') = 56.0
+x_('AGA',_'OPO') = 112.0
+x_('CMN',_'TFS') = 168.0
+x_('ERH',_'TFS') = 56.0
+x_('EUN',_'CMN') = 112.0
+x_('EUN',_'TNG') = 56.0
+x_('OPO',_'CMN') = 56.0
+x_('OPO',_'EUN') = 56.0
+x_('TFS',_'VLC') = 224.0
+x_('TNG',_'EUN') = 56.0
+x_('VLC',_'AGA') = 168.0
+x_('VLC',_'EUN') = 56.0
+z_('AGA',_'ERH') = 1.0
+z_('AGA',_'OPO') = 2.0
+z_('CMN',_'TFS') = 3.0
+z_('ERH',_'TFS') = 1.0
+z_('EUN',_'CMN') = 2.0
+z_('EUN',_'TNG') = 1.0
+z_('OPO',_'CMN') = 1.0
+z_('OPO',_'EUN') = 1.0
+z_('TFS',_'VLC') = 4.0
+z_('TNG',_'EUN') = 1.0
+z_('VLC',_'AGA') = 3.0
+z_('VLC',_'EUN') = 1.0
+Total Profit =  151567.70421599684
